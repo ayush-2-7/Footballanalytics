@@ -11,22 +11,24 @@ df_nationalities = pd.read_csv('nationalities.csv')
 df_fixtures = pd.read_csv('fixtures.csv')
 df_table = pd.read_csv('table.csv')
 
+# Clean data
+df_table = df_table.loc[:, ~df_table.columns.str.contains('^Unnamed')]
+df_fixtures = df_fixtures.loc[:, ~df_fixtures.columns.str.contains('^Unnamed')]
+df_fixtures["Wk"] = df_fixtures["Wk"].astype(int)
+
 # Title of the dashboard
 st.title('Football Analytics Dashboard')
 
 # Sidebar navigation
-st.sidebar.title("Navigation")
-navigation = st.sidebar.radio("Go to",
-                              ["Standings",
-                               "Discipline Data",
-                               "Player Statistics",
-                               "Nationalities",
-                               "Fixtures",
-                               "League Table",
-                               "Top Scorers",
-                               "Nationality Distribution",
-                               "Goal Contribution",
-                               "Radar Chart"])
+st.sidebar.title("Statistics")
+navigation = st.sidebar.selectbox("Go to",
+                                  ["Standings",
+                                   "Fixtures",
+                                   "Nationality Distribution",
+                                   "Discipline Data",
+                                   "Player Dictionary",
+                                   "Top Performers (Offensive)",
+                                   "Goal Contribution"])
 
 # Define a color theme
 color_theme = px.colors.qualitative.Dark24
@@ -36,7 +38,6 @@ if navigation == "Standings":
     st.header('League Standings')
 
     # Display the league table
-    st.subheader('League Table')
     st.dataframe(df_table)
 
     # Filter teams
@@ -95,28 +96,24 @@ elif navigation == "Discipline Data":
     # Display the treemap
     st.plotly_chart(fig)
 
-elif navigation == "Player Statistics":
-    st.header('Player Statistics')
-    st.dataframe(df_player_stat.head())
+elif navigation == "Player Dictionary":
+    st.header('Player Dictionary')
 
-elif navigation == "Nationalities":
-    st.header('Nationalities')
+    selected_player = st.selectbox('Select a player', df_player_stat['Player'].unique())
 
-    # Create a choropleth map
-    fig = px.choropleth(df_nationalities,
-                        locations="Nation",
-                        locationmode='country names',
-                        color="# Players",
-                        hover_name="Nation",
-                        color_continuous_scale=px.colors.sequential.Plasma,
-                        title='Player Distribution Around the World')
-
-    # Customize the layout to hide the color bar
-    fig.update_layout(margin=dict(l=0, r=0, b=0, t=30), coloraxis_showscale=False)
-
-    # Display the choropleth map
-    st.plotly_chart(fig)
-
+    if selected_player:
+        player_data = df_player_stat[df_player_stat['Player'] == selected_player].iloc[0]
+        st.write(f"**Name:** {player_data['Player']}")
+        st.write(f"**Position:** {player_data['Pos']}")
+        st.write(f"**Country:** {player_data['Nation']}")
+        st.write(f"**Age:** {player_data['Age']}")
+        st.write(f"**Team:** {player_data['Squad']}")
+        st.write(f"**Goals:** {player_data['Gls']}")
+        st.write(f"**Assists:** {player_data['Ast']}")
+        st.write(f"**Goals + Assists:** {player_data['G+A']}")
+        st.write(f"**Non-Penalty Goals:** {player_data['G-PK']}")
+        st.write(f"**Expected Goals (xG):** {player_data['xG']}")
+        st.write(f"**Progressive Passes:** {player_data['PrgP']}")
 elif navigation == "Fixtures":
     st.header('Fixtures')
 
@@ -130,12 +127,8 @@ elif navigation == "Fixtures":
     # Display the filtered dataframe
     st.dataframe(filtered_fixtures)
 
-elif navigation == "League Table":
-    st.header('League Table')
-    st.dataframe(df_table.head())
-
-elif navigation == "Top Scorers":
-    st.header('Top Scorers')
+elif navigation == "Top Performers (Offensive)":
+    st.header('Top Performers (Offensive)')
 
     # Extract top scorers
     top_scorers = df_player_stat[['Player', 'Gls']].sort_values(by='Gls', ascending=False).head(10)
@@ -143,24 +136,72 @@ elif navigation == "Top Scorers":
     # Plotting the top scorers
     fig, ax = plt.subplots()
     ax.barh(top_scorers['Player'], top_scorers['Gls'], color=color_theme[0])
+    for i in ax.patches:
+        ax.text(i.get_width() + 0.2, i.get_y() + i.get_height()/2, str(i.get_width()), ha='center', va='center')
     ax.set_xlabel('Goals')
     ax.set_ylabel('Player')
     ax.set_title('Top 10 Goal Scorers')
     plt.gca().invert_yaxis()  # To display the highest scorer on top
     st.pyplot(fig)
 
+    # Extract top assist providers
+    top_assists = df_player_stat[['Player', 'Ast']].sort_values(by='Ast', ascending=False).head(10)
+
+    # Plotting the top assist providers
+    fig, ax = plt.subplots()
+    ax.barh(top_assists['Player'], top_assists['Ast'], color=color_theme[1])
+    for i in ax.patches:
+        ax.text(i.get_width() + 0.2, i.get_y() + i.get_height()/2, str(i.get_width()), ha='center', va='center')
+    ax.set_xlabel('Assists')
+    ax.set_ylabel('Player')
+    ax.set_title('Top 10 Assist Providers')
+    plt.gca().invert_yaxis()
+    st.pyplot(fig)
+
+    # Extract top players with most xG
+    top_xg = df_player_stat[['Player', 'xG']].sort_values(by='xG', ascending=False).head(10)
+
+    # Plotting the top players with most xG
+    fig, ax = plt.subplots()
+    ax.barh(top_xg['Player'], top_xg['xG'], color=color_theme[2])
+    for i in ax.patches:
+        ax.text(i.get_width() + 0.2, i.get_y() + i.get_height()/2, str(i.get_width()), ha='center', va='center')
+    ax.set_xlabel('xG')
+    ax.set_ylabel('Player')
+    ax.set_title('Top 10 Players with Most xG')
+    plt.gca().invert_yaxis()
+    st.pyplot(fig)
+
+    # Extract top players with most penalties scored
+    top_pk = df_player_stat[['Player', 'PK']].sort_values(by='PK', ascending=False).head(10)
+
+    # Plotting the top players with most penalties scored
+    fig, ax = plt.subplots()
+    ax.barh(top_pk['Player'], top_pk['PK'], color=color_theme[3])
+    for i in ax.patches:
+        ax.text(i.get_width() + 0.2, i.get_y() + i.get_height() / 2, str(i.get_width()), ha='center', va='center')
+    ax.set_xlabel('Penalties')
+    ax.set_ylabel('Player')
+    ax.set_title('Top 10 Players with Most Penalties Scored')
+    plt.gca().invert_yaxis()
+    st.pyplot(fig)
+
 elif navigation == "Nationality Distribution":
     st.header('Nationality Distribution')
 
-    # Extract nationality distribution
-    nationality_counts = df_nationalities['Nationality'].value_counts()
-
-    # Plotting the nationality distribution
-    fig, ax = plt.subplots()
-    ax.pie(nationality_counts, labels=nationality_counts.index, autopct='%1.1f%%', startangle=90, colors=color_theme)
-    ax.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-    ax.set_title('Nationality Distribution of Players')
-    st.pyplot(fig)
+    # Create a choropleth map
+    fig = px.choropleth(df_nationalities,
+                        locations="Nation",
+                        locationmode='country names',
+                        color="# Players",
+                        hover_name="Nation",
+                        color_continuous_scale=px.colors.sequential.Plasma,
+                        title='Player Distribution Around the World')
+    # Customize the layout to hide the color bar
+    fig.update_layout(margin=dict(l=0, r=0, b=0, t=30), coloraxis_showscale=False)
+    fig.update_traces(showlegend=False)
+    # Display the choropleth map
+    st.plotly_chart(fig)
 
 elif navigation == "Goal Contribution":
     st.header('Goal Contribution')
@@ -169,12 +210,11 @@ elif navigation == "Goal Contribution":
     df_player_stat['GoalContribution'] = df_player_stat['Gls'] + df_player_stat['Ast']
 
     # Select the top 20 players based on goal contribution
-    top_players = df_player_stat.nlargest(20, 'GoalContribution')
+    top_players = df_player_stat.nlargest(500, 'GoalContribution')
 
     # Create a scatterplot with size corresponding to goal contribution
     fig = px.scatter(top_players, x='Ast', y='Gls', size='GoalContribution',
                      labels={'Ast': 'Number of Assists', 'Gls': 'Number of Goals'},
-                     title='Scatterplot: Top 20 Players - Goal Contribution',
                      hover_name='Player',
                      color_discrete_sequence=color_theme)
 
@@ -183,43 +223,3 @@ elif navigation == "Goal Contribution":
 
     # Display the scatterplot
     st.plotly_chart(fig)
-
-elif navigation == "Radar Chart":
-    st.header('Player Comparison - Radar Chart')
-
-    # Sort players by 'Gls' in descending order
-    sorted_players = df_player_stat.sort_values(by='Gls', ascending=False)['Player'].unique()
-    selected_players = st.multiselect('Select players to compare', sorted_players, default=sorted_players[:2])
-
-    # Filter dataframe based on selected players
-    filtered_players = df_player_stat[df_player_stat['Player'].isin(selected_players)]
-
-    # Parameters for the radar chart
-    radar_params = ['Gls', 'Ast', 'G+A', 'G-PK', 'xG', 'PrgP']
-
-    # Create the radar chart
-    fig = go.Figure()
-
-    for player in selected_players:
-        player_data = filtered_players[filtered_players['Player'] == player]
-        fig.add_trace(go.Scatterpolar(
-            r=player_data[radar_params].values.flatten().tolist(),
-            theta=radar_params,
-            fill='toself',
-            name=player
-        ))
-
-    fig.update_layout(
-        polar=dict(
-            radialaxis=dict(
-                visible=True,
-                range=[0, filtered_players[radar_params].max().max()]
-            )),
-        showlegend=True,
-        title='Player Comparison'
-    )
-
-    # Display the radar chart
-    st.plotly_chart(fig)
-
-
