@@ -43,7 +43,6 @@ beautifulsoup4==4.12.3
 binaryornot @ file:///tmp/build/80754af9/binaryornot_1617751525010/work
 bitarray @ file:///opt/concourse/worker/volumes/live/8f2b2fa2-f7cd-4343-4d8f-3cc38b632e33/volume/bitarray_1629132852828/work
 bkcharts==0.2
-black @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_a2tw4ymeuy/croot/black_1717597499079/work
 bleach @ file:///tmp/build/80754af9/bleach_1628110601003/work
 blinker==1.8.2
 bokeh @ file:///opt/concourse/worker/volumes/live/278130e0-6bd5-4375-72c8-87158eba9408/volume/bokeh_1635324480391/work
