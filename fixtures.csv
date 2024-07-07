@@ -1,0 +1,307 @@
+,Wk,Day,Date,Time,Home,xG,Score,xG.1,Away,Attendance,Venue,Referee
+0,1.0,Fri,2023-07-28,20:30,Hamburger SV,5.4,5–3,1.7,Schalke 04,57000.0,Volksparkstadion,Matthias Jöllenbeck
+1,1.0,Sat,2023-07-29,13:00,Hannover 96,1.7,2–2,1.7,Elversberg,29200.0,Heinz-von-Heiden-Arena,Alexander Sather
+2,1.0,Sat,2023-07-29,13:00,Osnabrück,1.2,2–3,1.7,Karlsruher,15741.0,Stadion an der Bremer Brücke,Michael Bacher
+3,1.0,Sat,2023-07-29,13:00,Kaiserslautern,1.1,1–2,2.3,St. Pauli,44079.0,Fritz-Walter-Stadion,Robert Schröder
+4,1.0,Sat,2023-07-29,13:00,Wehen,0.8,1–1,1.4,Magdeburg,7219.0,BRITA-Arena,Benjamin Brand
+5,1.0,Sat,2023-07-29,20:30,Düsseldorf,0.4,1–0,0.6,Hertha BSC,40466.0,Merkur Spielarena,Christian Dingert
+6,1.0,Sun,2023-07-30,13:30,Braunschweig,0.4,0–1,1.3,Holstein Kiel,20002.0,Eintracht-Stadion,Aarne Aarnink
+7,1.0,Sun,2023-07-30,13:30,Greuther Fürth,3.4,5–0,0.2,Paderborn 07,10547.0,Sportpark Ronhof Thomas Sommer,Richard Hempel
+8,1.0,Sun,2023-07-30,13:30,Hansa Rostock,0.8,2–0,1.8,Nürnberg,29000.0,Ostseestadion,Florian Heft
+10,2.0,Fri,2023-08-04,18:30,Paderborn 07,1.6,1–1,0.6,Osnabrück,14789.0,Home Deluxe Arena,Tobias Stieler
+11,2.0,Fri,2023-08-04,18:30,Hertha BSC,1.7,0–1,1.1,Wehen,40075.0,Olympiastadion Berlin,Florian Lechner
+12,2.0,Sat,2023-08-05,13:00,St. Pauli,1.4,0–0,0.6,Düsseldorf,29546.0,Millerntor-Stadion,Daniel Schlager
+13,2.0,Sat,2023-08-05,13:00,Elversberg,1.9,1–2,1.1,Hansa Rostock,8371.0,Ursapharm-Arena an der Kaiserlinde,Robert Kampka
+14,2.0,Sat,2023-08-05,13:00,Holstein Kiel,2.0,2–1,1.3,Greuther Fürth,11790.0,Holstein-Stadion,Tobias Reichel
+15,2.0,Sat,2023-08-05,20:30,Schalke 04,2.5,3–0,1.1,Kaiserslautern,61801.0,Veltins-Arena,Harm Osmers
+16,2.0,Sun,2023-08-06,13:30,Karlsruher,2.5,2–2,2.0,Hamburger SV,33000.0,BBBank Wildpark,Felix Brych
+17,2.0,Sun,2023-08-06,13:30,Nürnberg,1.1,2–2,2.5,Hannover 96,30012.0,Max-Morlock-Stadion,Patrick Alt
+18,2.0,Sun,2023-08-06,13:30,Magdeburg,1.7,2–1,1.1,Braunschweig,28350.0,MDCC-Arena,Daniel Siebert
+20,3.0,Fri,2023-08-18,18:30,Kaiserslautern,2.4,3–2,2.1,Elversberg,42621.0,Fritz-Walter-Stadion,Patrick Ittrich
+21,3.0,Fri,2023-08-18,18:30,Wehen,1.0,1–0,1.5,Karlsruher,10626.0,BRITA-Arena,Wolfgang Haslberger
+22,3.0,Sat,2023-08-19,13:00,Hansa Rostock,1.5,1–2,1.4,Hannover 96,25700.0,Ostseestadion,Florian Exner
+23,3.0,Sat,2023-08-19,13:00,Düsseldorf,1.6,1–2,1.4,Paderborn 07,30312.0,Merkur Spielarena,Robert Hartmann
+24,3.0,Sat,2023-08-19,13:00,Greuther Fürth,1.0,0–0,1.1,St. Pauli,12207.0,Sportpark Ronhof Thomas Sommer,Tom Bauer
+25,3.0,Sat,2023-08-19,20:30,Hamburger SV,3.2,3–0,0.4,Hertha BSC,57000.0,Volksparkstadion,Frank Willenborg
+26,3.0,Sun,2023-08-20,13:30,Braunschweig,2.3,1–0,1.4,Schalke 04,21800.0,Eintracht-Stadion,Bastian Dankert
+27,3.0,Sun,2023-08-20,13:30,Osnabrück,1.5,2–3,1.4,Nürnberg,12000.0,Stadion an der Bremer Brücke,Sascha Stegemann
+28,3.0,Sun,2023-08-20,13:30,Holstein Kiel,1.8,2–4,2.0,Magdeburg,12400.0,Holstein-Stadion,Nicolas Winter
+30,4.0,Fri,2023-08-25,18:30,Paderborn 07,1.1,1–2,1.3,Kaiserslautern,13475.0,Home Deluxe Arena,Robin Braun
+31,4.0,Fri,2023-08-25,18:30,Schalke 04,0.5,0–2,2.2,Holstein Kiel,60403.0,Veltins-Arena,Deniz Aytekin
+32,4.0,Sat,2023-08-26,13:00,Hertha BSC,2.4,5–0,1.2,Greuther Fürth,35291.0,Olympiastadion Berlin,Tobias Stieler
+33,4.0,Sat,2023-08-26,13:00,Elversberg,1.1,0–5,2.6,Düsseldorf,8366.0,Ursapharm-Arena an der Kaiserlinde,Michael Bacher
+34,4.0,Sat,2023-08-26,13:00,Hansa Rostock,1.6,2–1,0.6,Osnabrück,25500.0,Ostseestadion,Patrick Schwengers
+35,4.0,Sat,2023-08-26,20:30,Hannover 96,1.4,0–1,1.3,Hamburger SV,49000.0,Heinz-von-Heiden-Arena,Tobias Reichel
+36,4.0,Sun,2023-08-27,13:30,Nürnberg,1.9,2–1,1.4,Wehen,26547.0,Max-Morlock-Stadion,Martin Petersen
+37,4.0,Sun,2023-08-27,13:30,Karlsruher,2.6,2–0,0.7,Braunschweig,23590.0,BBBank Wildpark,Robert Kampka
+38,4.0,Sun,2023-08-27,13:30,St. Pauli,1.3,0–0,0.5,Magdeburg,29546.0,Millerntor-Stadion,Sven Jablonski
+40,5.0,Fri,2023-09-01,18:30,Braunschweig,0.8,1–1,1.2,St. Pauli,21290.0,Eintracht-Stadion,Florian Lechner
+41,5.0,Fri,2023-09-01,18:30,Düsseldorf,2.4,3–1,0.6,Karlsruher,27942.0,Merkur Spielarena,Frank Willenborg
+42,5.0,Sat,2023-09-02,13:00,Wehen,1.6,1–1,1.2,Schalke 04,11003.0,BRITA-Arena,Florian Exner
+43,5.0,Sat,2023-09-02,13:00,Magdeburg,3.8,6–4,2.4,Hertha BSC,26872.0,MDCC-Arena,Tom Bauer
+44,5.0,Sat,2023-09-02,13:00,Holstein Kiel,1.6,2–1,1.4,Paderborn 07,11454.0,Holstein-Stadion,Wolfgang Haslberger
+45,5.0,Sat,2023-09-02,20:30,Kaiserslautern,1.0,3–1,1.8,Nürnberg,43677.0,Fritz-Walter-Stadion,Aarne Aarnink
+46,5.0,Sun,2023-09-03,13:30,Greuther Fürth,1.1,1–3,1.4,Hannover 96,10091.0,Sportpark Ronhof Thomas Sommer,Timo Gerach
+47,5.0,Sun,2023-09-03,13:30,Osnabrück,0.9,0–1,0.9,Elversberg,14478.0,Stadion an der Bremer Brücke,Christian Dingert
+48,5.0,Sun,2023-09-03,13:30,Hamburger SV,2.1,2–0,0.7,Hansa Rostock,55000.0,Volksparkstadion,Benjamin Brand
+50,6.0,Fri,2023-09-15,18:30,Nürnberg,2.0,1–1,0.7,Greuther Fürth,47000.0,Max-Morlock-Stadion,Robert Hartmann
+51,6.0,Fri,2023-09-15,18:30,Paderborn 07,2.0,2–1,1.9,Wehen,10584.0,Home Deluxe Arena,Robert Kampka
+52,6.0,Sat,2023-09-16,13:00,Hansa Rostock,2.8,1–3,1.5,Düsseldorf,24600.0,Ostseestadion,Nicolas Winter
+53,6.0,Sat,2023-09-16,13:00,Karlsruher,2.4,1–1,0.8,Kaiserslautern,33000.0,BBBank Wildpark,Deniz Aytekin
+54,6.0,Sat,2023-09-16,13:00,Elversberg,3.3,2–1,1.1,Hamburger SV,10150.0,Ursapharm-Arena an der Kaiserlinde,Patrick Schwengers
+55,6.0,Sat,2023-09-16,20:30,Schalke 04,2.1,4–3,0.9,Magdeburg,61755.0,Veltins-Arena,Michael Bacher
+56,6.0,Sun,2023-09-17,13:30,Hannover 96,2.6,7–0,0.8,Osnabrück,27000.0,Heinz-von-Heiden-Arena,Robin Braun
+57,6.0,Sun,2023-09-17,13:30,Hertha BSC,2.7,3–0,1.4,Braunschweig,43528.0,Olympiastadion Berlin,Marco Fritz
+58,6.0,Sun,2023-09-17,13:30,St. Pauli,0.7,5–1,1.4,Holstein Kiel,29546.0,Millerntor-Stadion,Bastian Dankert
+60,7.0,Fri,2023-09-22,18:30,Magdeburg,0.9,1–1,1.0,Paderborn 07,24123.0,MDCC-Arena,Felix Brych
+61,7.0,Fri,2023-09-22,18:30,Osnabrück,2.4,2–1,0.7,Hamburger SV,15741.0,Stadion an der Bremer Brücke,Florian Exner
+62,7.0,Sat,2023-09-23,13:00,Greuther Fürth,2.2,4–3,1.4,Karlsruher,11090.0,Sportpark Ronhof Thomas Sommer,Patrick Ittrich
+63,7.0,Sat,2023-09-23,13:00,Braunschweig,0.5,2–2,1.3,Nürnberg,19798.0,Eintracht-Stadion,Florian Heft
+64,7.0,Sat,2023-09-23,13:00,Wehen,0.8,0–2,2.5,Elversberg,7526.0,BRITA-Arena,Aarne Aarnink
+65,7.0,Sat,2023-09-23,20:30,St. Pauli,1.9,3–1,1.3,Schalke 04,29546.0,Millerntor-Stadion,Frank Willenborg
+66,7.0,Sun,2023-09-24,13:30,Holstein Kiel,1.6,2–3,3.5,Hertha BSC,15034.0,Holstein-Stadion,Florian Badstübner
+67,7.0,Sun,2023-09-24,13:30,Düsseldorf,1.6,1–1,0.6,Hannover 96,35444.0,Merkur Spielarena,Florian Lechner
+68,7.0,Sun,2023-09-24,13:30,Kaiserslautern,2.8,3–1,1.1,Hansa Rostock,40450.0,Fritz-Walter-Stadion,Martin Petersen
+70,8.0,Fri,2023-09-29,18:30,Paderborn 07,1.7,3–1,0.8,Schalke 04,15000.0,Home Deluxe Arena,Timo Gerach
+71,8.0,Fri,2023-09-29,18:30,Hamburger SV,1.7,1–0,0.7,Düsseldorf,56100.0,Volksparkstadion,Felix Zwayer
+72,8.0,Sat,2023-09-30,13:00,Hansa Rostock,1.4,1–0,1.1,Braunschweig,26500.0,Ostseestadion,Daniel Siebert
+73,8.0,Sat,2023-09-30,13:00,Hannover 96,1.9,2–0,0.8,Wehen,31100.0,Heinz-von-Heiden-Arena,Nicolas Winter
+74,8.0,Sat,2023-09-30,13:00,Karlsruher,1.6,0–2,1.6,Holstein Kiel,21982.0,BBBank Wildpark,Patrick Alt
+75,8.0,Sat,2023-09-30,20:30,Hertha BSC,0.7,1–2,2.1,St. Pauli,66113.0,Olympiastadion Berlin,Deniz Aytekin
+76,8.0,Sun,2023-10-01,13:30,Elversberg,0.9,1–1,0.9,Greuther Fürth,8042.0,Ursapharm-Arena an der Kaiserlinde,Tom Bauer
+77,8.0,Sun,2023-10-01,13:30,Nürnberg,1.6,1–0,0.4,Magdeburg,33106.0,Max-Morlock-Stadion,Robin Braun
+78,8.0,Sun,2023-10-01,13:30,Osnabrück,2.1,2–2,4.2,Kaiserslautern,15741.0,Stadion an der Bremer Brücke,Daniel Schlager
+80,9.0,Fri,2023-10-06,18:30,Düsseldorf,0.7,1–1,0.4,Osnabrück,33132.0,Merkur Spielarena,Robert Kampka
+81,9.0,Fri,2023-10-06,18:30,Kaiserslautern,2.5,3–1,0.9,Hannover 96,38000.0,Fritz-Walter-Stadion,Michael Bacher
+82,9.0,Sat,2023-10-07,13:00,Wehen,1.2,1–1,2.1,Hamburger SV,12100.0,BRITA-Arena,Wolfgang Haslberger
+83,9.0,Sat,2023-10-07,13:00,Magdeburg,1.8,1–1,0.3,Karlsruher,24366.0,MDCC-Arena,Florian Lechner
+84,9.0,Sat,2023-10-07,13:00,Greuther Fürth,0.9,1–0,0.2,Hansa Rostock,13856.0,Sportpark Ronhof Thomas Sommer,Alexander Sather
+85,9.0,Sat,2023-10-07,20:30,St. Pauli,1.5,5–1,0.6,Nürnberg,29546.0,Millerntor-Stadion,Matthias Jöllenbeck
+86,9.0,Sun,2023-10-08,13:30,Braunschweig,1.9,1–3,2.3,Paderborn 07,19003.0,Eintracht-Stadion,Florian Badstübner
+87,9.0,Sun,2023-10-08,13:30,Holstein Kiel,2.1,1–1,1.3,Elversberg,12675.0,Holstein-Stadion,Tobias Reichel
+88,9.0,Sun,2023-10-08,13:30,Schalke 04,1.8,1–2,1.9,Hertha BSC,61887.0,Veltins-Arena,Harm Osmers
+90,10.0,Fri,2023-10-20,18:30,Elversberg,1.1,3–0,0.5,Braunschweig,8713.0,Ursapharm-Arena an der Kaiserlinde,Robert Hartmann
+91,10.0,Fri,2023-10-20,18:30,Hannover 96,2.3,2–1,0.7,Magdeburg,38200.0,Heinz-von-Heiden-Arena,Aarne Aarnink
+92,10.0,Sat,2023-10-21,13:00,Paderborn 07,1.3,2–2,2.2,St. Pauli,15000.0,Home Deluxe Arena,Martin Petersen
+93,10.0,Sat,2023-10-21,13:00,Osnabrück,1.6,0–2,2.0,Wehen,14491.0,Stadion an der Bremer Brücke,Patrick Schwengers
+94,10.0,Sat,2023-10-21,13:00,Hamburger SV,2.1,2–0,1.8,Greuther Fürth,55800.0,Volksparkstadion,Robert Schröder
+95,10.0,Sat,2023-10-21,20:30,Düsseldorf,1.8,4–3,1.1,Kaiserslautern,52000.0,Merkur Spielarena,Benjamin Brand
+96,10.0,Sun,2023-10-22,13:30,Hansa Rostock,2.3,1–3,1.5,Holstein Kiel,26000.0,Ostseestadion,Richard Hempel
+97,10.0,Sun,2023-10-22,13:30,Karlsruher,1.1,3–0,0.9,Schalke 04,33000.0,BBBank Wildpark,Florian Heft
+98,10.0,Sun,2023-10-22,13:30,Nürnberg,1.7,3–1,1.2,Hertha BSC,37320.0,Max-Morlock-Stadion,Florian Exner
+100,11.0,Fri,2023-10-27,18:30,Braunschweig,1.1,1–4,2.6,Düsseldorf,19333.0,Eintracht-Stadion,Patrick Alt
+101,11.0,Fri,2023-10-27,18:30,Greuther Fürth,1.4,4–0,0.4,Osnabrück,9978.0,Sportpark Ronhof Thomas Sommer,Robin Braun
+102,11.0,Sat,2023-10-28,13:00,St. Pauli,1.1,2–1,0.5,Karlsruher,29125.0,Millerntor-Stadion,Max Burda
+103,11.0,Sat,2023-10-28,13:00,Schalke 04,1.7,3–2,1.8,Hannover 96,62271.0,Veltins-Arena,Timo Gerach
+104,11.0,Sat,2023-10-28,13:00,Hertha BSC,1.2,3–1,1.8,Paderborn 07,35832.0,Olympiastadion Berlin,Tom Bauer
+105,11.0,Sat,2023-10-28,20:30,Kaiserslautern,2.7,3–3,1.8,Hamburger SV,49327.0,Fritz-Walter-Stadion,Florian Badstübner
+106,11.0,Sun,2023-10-29,13:30,Magdeburg,1.4,1–2,0.5,Elversberg,22166.0,MDCC-Arena,Lukas Benen
+107,11.0,Sun,2023-10-29,13:30,Holstein Kiel,0.9,0–2,1.1,Nürnberg,12801.0,Holstein-Stadion,Frank Willenborg
+108,11.0,Sun,2023-10-29,13:30,Wehen,1.7,1–0,1.4,Hansa Rostock,8619.0,BRITA-Arena,Christian Dingert
+110,12.0,Fri,2023-11-03,18:30,Düsseldorf,2.7,1–3,2.1,Wehen,27715.0,Merkur Spielarena,Florian Heft
+111,12.0,Fri,2023-11-03,18:30,Elversberg,0.3,0–2,0.6,St. Pauli,10150.0,Ursapharm-Arena an der Kaiserlinde,Alexander Sather
+112,12.0,Sat,2023-11-04,13:00,Nürnberg,0.8,1–2,1.5,Schalke 04,50000.0,Max-Morlock-Stadion,Wolfgang Haslberger
+113,12.0,Sat,2023-11-04,13:00,Kaiserslautern,0.9,0–2,1.8,Greuther Fürth,40302.0,Fritz-Walter-Stadion,Felix Zwayer
+114,12.0,Sat,2023-11-04,13:00,Osnabrück,0.8,1–1,1.4,Holstein Kiel,15000.0,Stadion an der Bremer Brücke,Patrick Ittrich
+115,12.0,Sat,2023-11-04,20:30,Hamburger SV,2.1,2–0,1.0,Magdeburg,56800.0,Volksparkstadion,Florian Exner
+116,12.0,Sun,2023-11-05,13:30,Hansa Rostock,0.6,0–0,1.0,Hertha BSC,26000.0,Ostseestadion,Martin Petersen
+117,12.0,Sun,2023-11-05,13:30,Karlsruher,2.0,0–3,1.2,Paderborn 07,23705.0,BBBank Wildpark,Patrick Schwengers
+118,12.0,Sun,2023-11-05,13:30,Hannover 96,1.5,2–0,0.0,Braunschweig,42000.0,Heinz-von-Heiden-Arena,Sascha Stegemann
+120,13.0,Fri,2023-11-10,18:30,Schalke 04,2.2,1–2,0.7,Elversberg,61110.0,Veltins-Arena,Martin Petersen
+121,13.0,Fri,2023-11-10,18:30,St. Pauli,0.9,0–0,0.1,Hannover 96,29546.0,Millerntor-Stadion,Richard Hempel
+122,13.0,Sat,2023-11-11,13:00,Holstein Kiel,2.5,4–2,3.3,Hamburger SV,15034.0,Holstein-Stadion,Deniz Aytekin
+123,13.0,Sat,2023-11-11,13:00,Braunschweig,3.2,3–2,1.7,Osnabrück,20327.0,Eintracht-Stadion,Florian Lechner
+124,13.0,Sat,2023-11-11,13:00,Paderborn 07,2.8,1–3,1.8,Nürnberg,12249.0,Home Deluxe Arena,Nicolas Winter
+125,13.0,Sat,2023-11-11,20:30,Hertha BSC,2.2,2–2,0.8,Karlsruher,58851.0,Olympiastadion Berlin,Michael Bacher
+126,13.0,Sun,2023-11-12,13:30,Magdeburg,1.4,1–2,0.7,Hansa Rostock,26660.0,MDCC-Arena,Florian Badstübner
+127,13.0,Sun,2023-11-12,13:30,Greuther Fürth,1.1,1–0,0.7,Düsseldorf,10097.0,Sportpark Ronhof Thomas Sommer,Max Burda
+128,13.0,Sun,2023-11-12,13:30,Wehen,1.2,2–1,0.2,Kaiserslautern,12100.0,BRITA-Arena,Tobias Reichel
+130,14.0,Fri,2023-11-24,18:30,Hamburger SV,1.0,2–1,1.0,Braunschweig,55879.0,Volksparkstadion,Max Burda
+131,14.0,Fri,2023-11-24,18:30,Hannover 96,1.4,2–2,0.7,Hertha BSC,45100.0,Heinz-von-Heiden-Arena,Timo Gerach
+132,14.0,Sat,2023-11-25,13:00,Elversberg,1.1,4–1,1.0,Paderborn 07,8126.0,Ursapharm-Arena an der Kaiserlinde,Florian Heft
+133,14.0,Sat,2023-11-25,13:00,Osnabrück,0.6,0–2,1.4,Magdeburg,15741.0,Stadion an der Bremer Brücke,Robert Kampka
+134,14.0,Sat,2023-11-25,13:00,Hansa Rostock,2.9,2–3,2.1,St. Pauli,27100.0,Ostseestadion,Robin Braun
+135,14.0,Sat,2023-11-25,20:30,Düsseldorf,1.7,5–3,1.4,Schalke 04,52000.0,Merkur Spielarena,Robert Schröder
+136,14.0,Sun,2023-11-26,13:30,Karlsruher,3.3,4–1,1.5,Nürnberg,25966.0,BBBank Wildpark,Harm Osmers
+137,14.0,Sun,2023-11-26,13:30,Greuther Fürth,1.2,2–0,1.3,Wehen,9576.0,Sportpark Ronhof Thomas Sommer,Frank Willenborg
+138,14.0,Sun,2023-11-26,13:30,Kaiserslautern,1.2,0–3,1.3,Holstein Kiel,38367.0,Fritz-Walter-Stadion,Bastian Dankert
+140,15.0,Fri,2023-12-01,18:30,Schalke 04,2.2,4–0,0.3,Osnabrück,62093.0,Veltins-Arena,Tom Bauer
+141,15.0,Fri,2023-12-01,18:30,St. Pauli,0.7,2–2,1.0,Hamburger SV,29153.0,Millerntor-Stadion,Felix Zwayer
+142,15.0,Sat,2023-12-02,13:00,Holstein Kiel,2.8,3–2,1.8,Wehen,10754.0,Holstein-Stadion,Patrick Alt
+143,15.0,Sat,2023-12-02,13:00,Nürnberg,0.2,0–5,2.5,Düsseldorf,33062.0,Max-Morlock-Stadion,Richard Hempel
+144,15.0,Sat,2023-12-02,13:00,Braunschweig,1.4,0–1,1.3,Greuther Fürth,17570.0,Eintracht-Stadion,Daniel Schlager
+145,15.0,Sat,2023-12-02,20:30,Magdeburg,2.5,4–1,1.5,Kaiserslautern,25214.0,MDCC-Arena,Florian Exner
+146,15.0,Sun,2023-12-03,13:30,Paderborn 07,1.4,1–0,0.4,Hannover 96,11950.0,Home Deluxe Arena,Wolfgang Haslberger
+147,15.0,Sun,2023-12-03,13:30,Karlsruher,1.6,2–2,1.9,Hansa Rostock,23159.0,BBBank Wildpark,Deniz Aytekin
+148,15.0,Sun,2023-12-03,13:30,Hertha BSC,1.8,5–1,1.2,Elversberg,33097.0,Olympiastadion Berlin,Sven Jablonski
+150,16.0,Fri,2023-12-08,18:30,Wehen,2.0,1–3,1.7,Braunschweig,7726.0,BRITA-Arena,Max Burda
+151,16.0,Fri,2023-12-08,18:30,Hannover 96,2.2,2–2,1.4,Karlsruher,26200.0,Heinz-von-Heiden-Arena,Florian Lechner
+152,16.0,Sat,2023-12-09,13:00,Kaiserslautern,0.6,1–2,0.9,Hertha BSC,45308.0,Fritz-Walter-Stadion,Harm Osmers
+153,16.0,Sat,2023-12-09,13:00,Hamburger SV,1.4,1–2,1.6,Paderborn 07,52244.0,Volksparkstadion,Christian Dingert
+154,16.0,Sat,2023-12-09,13:00,Greuther Fürth,1.4,1–1,1.4,Magdeburg,11000.0,Sportpark Ronhof Thomas Sommer,Florian Heft
+155,16.0,Sat,2023-12-09,20:30,Osnabrück,0.7,1–1,1.8,St. Pauli,15741.0,Stadion an der Bremer Brücke,Patrick Schwengers
+156,16.0,Sun,2023-12-10,13:30,Hansa Rostock,0.2,0–2,1.9,Schalke 04,27250.0,Ostseestadion,Nicolas Winter
+157,16.0,Sun,2023-12-10,13:30,Elversberg,1.3,0–1,1.5,Nürnberg,8150.0,Ursapharm-Arena an der Kaiserlinde,Robert Hartmann
+158,16.0,Sun,2023-12-10,13:30,Düsseldorf,1.1,0–1,2.3,Holstein Kiel,31042.0,Merkur Spielarena,Florian Badstübner
+160,17.0,Fri,2023-12-15,18:30,Paderborn 07,2.7,3–0,0.3,Hansa Rostock,12260.0,Home Deluxe Arena,Wolfgang Haslberger
+161,17.0,Fri,2023-12-15,18:30,Schalke 04,0.9,2–2,1.5,Greuther Fürth,60166.0,Veltins-Arena,Daniel Siebert
+162,17.0,Sat,2023-12-16,13:00,Hertha BSC,0.6,0–0,0.4,Osnabrück,43650.0,Olympiastadion Berlin,Patrick Ittrich
+163,17.0,Sat,2023-12-16,13:00,Magdeburg,1.2,2–3,2.4,Düsseldorf,20647.0,MDCC-Arena,Michael Bacher
+164,17.0,Sat,2023-12-16,13:00,Nürnberg,1.0,0–2,1.9,Hamburger SV,41276.0,Max-Morlock-Stadion,Tobias Reichel
+165,17.0,Sat,2023-12-16,20:30,Holstein Kiel,1.7,3–0,0.5,Hannover 96,13902.0,Holstein-Stadion,Florian Exner
+166,17.0,Sun,2023-12-17,13:30,St. Pauli,2.9,1–1,0.3,Wehen,29332.0,Millerntor-Stadion,Timo Gerach
+167,17.0,Sun,2023-12-17,13:30,Braunschweig,2.0,2–1,0.7,Kaiserslautern,20627.0,Eintracht-Stadion,Aarne Aarnink
+168,17.0,Sun,2023-12-17,13:30,Karlsruher,2.1,3–2,1.8,Elversberg,23654.0,BBBank Wildpark,Martin Petersen
+170,18.0,Fri,2024-01-19,18:30,Holstein Kiel,1.9,1–2,2.0,Braunschweig,15034.0,Holstein-Stadion,Tobias Stieler
+171,18.0,Fri,2024-01-19,18:30,Karlsruher,2.2,2–1,1.3,Osnabrück,21077.0,BBBank Wildpark,Sören Storks
+172,18.0,Sat,2024-01-20,13:00,Nürnberg,1.4,3–0,0.3,Hansa Rostock,27763.0,Max-Morlock-Stadion,Tom Bauer
+173,18.0,Sat,2024-01-20,13:00,Elversberg,1.0,2–2,1.4,Hannover 96,8150.0,Ursapharm-Arena an der Kaiserlinde,Robert Hartmann
+174,18.0,Sat,2024-01-20,13:00,St. Pauli,3.3,2–0,1.6,Kaiserslautern,29546.0,Millerntor-Stadion,Tobias Welz
+175,18.0,Sat,2024-01-20,20:30,Schalke 04,1.0,0–2,1.2,Hamburger SV,61992.0,Veltins-Arena,Sven Jablonski
+176,18.0,Sun,2024-01-21,13:30,Paderborn 07,2.7,0–1,1.4,Greuther Fürth,10975.0,Home Deluxe Arena,Max Burda
+177,18.0,Sun,2024-01-21,13:30,Hertha BSC,1.0,2–2,2.2,Düsseldorf,42902.0,Olympiastadion Berlin,Robert Kampka
+178,18.0,Sun,2024-01-21,13:30,Magdeburg,0.8,1–0,0.9,Wehen,22500.0,MDCC-Arena,Patrick Alt
+180,19.0,Fri,2024-01-26,18:30,Hannover 96,4.1,3–0,0.8,Nürnberg,25100.0,Heinz-von-Heiden-Arena,Patrick Schwengers
+181,19.0,Fri,2024-01-26,18:30,Kaiserslautern,2.2,4–1,1.1,Schalke 04,49327.0,Fritz-Walter-Stadion,Robin Braun
+182,19.0,Sat,2024-01-27,13:00,Wehen,2.1,3–1,1.1,Hertha BSC,10454.0,BRITA-Arena,Wolfgang Haslberger
+183,19.0,Sat,2024-01-27,13:00,Osnabrück,0.9,0–0,0.9,Paderborn 07,15741.0,Stadion an der Bremer Brücke,Michael Bacher
+184,19.0,Sat,2024-01-27,13:00,Hansa Rostock,1.2,2–1,1.7,Elversberg,24000.0,Ostseestadion,Florian Heft
+185,19.0,Sat,2024-01-27,20:30,Düsseldorf,1.1,1–2,2.6,St. Pauli,52000.0,Merkur Spielarena,Frank Willenborg
+186,19.0,Sun,2024-01-28,13:30,Greuther Fürth,1.6,2–1,1.7,Holstein Kiel,11008.0,Sportpark Ronhof Thomas Sommer,Alexander Sather
+187,19.0,Sun,2024-01-28,13:30,Hamburger SV,2.5,3–4,3.6,Karlsruher,51776.0,Volksparkstadion,Robert Schröder
+188,19.0,Sun,2024-01-28,13:30,Braunschweig,2.3,1–0,0.7,Magdeburg,22582.0,Eintracht-Stadion,Bastian Dankert
+190,20.0,Fri,2024-02-02,18:30,Magdeburg,2.4,1–1,0.8,Holstein Kiel,20097.0,MDCC-Arena,Florian Lechner
+191,20.0,Fri,2024-02-02,18:30,Karlsruher,1.4,2–2,2.7,Wehen,20407.0,BBBank Wildpark,Tom Bauer
+192,20.0,Sat,2024-02-03,13:00,Schalke 04,1.1,1–0,0.6,Braunschweig,61219.0,Veltins-Arena,Sascha Stegemann
+193,20.0,Sat,2024-02-03,13:00,St. Pauli,2.3,3–2,0.5,Greuther Fürth,29035.0,Millerntor-Stadion,Florian Exner
+194,20.0,Sat,2024-02-03,13:00,Nürnberg,1.3,2–2,2.5,Osnabrück,25335.0,Max-Morlock-Stadion,Nicolas Winter
+195,20.0,Sat,2024-02-03,20:30,Hertha BSC,0.9,1–2,1.9,Hamburger SV,58013.0,Olympiastadion Berlin,Daniel Schlager
+196,20.0,Sun,2024-02-04,13:30,Hannover 96,1.1,2–1,0.7,Hansa Rostock,31500.0,Heinz-von-Heiden-Arena,Alexander Sather
+197,20.0,Sun,2024-02-04,13:30,Paderborn 07,1.5,4–3,2.5,Düsseldorf,12852.0,Home Deluxe Arena,Tobias Welz
+198,20.0,Sun,2024-02-04,13:30,Elversberg,1.7,2–1,0.8,Kaiserslautern,11150.0,Ursapharm-Arena an der Kaiserlinde,Deniz Aytekin
+200,21.0,Fri,2024-02-09,18:30,Wehen,0.3,1–1,0.9,Nürnberg,9526.0,BRITA-Arena,Robert Kampka
+201,21.0,Fri,2024-02-09,18:30,Hamburger SV,2.3,3–4,2.1,Hannover 96,57000.0,Volksparkstadion,Sören Storks
+202,21.0,Sat,2024-02-10,13:00,Magdeburg,1.9,1–0,0.9,St. Pauli,25187.0,MDCC-Arena,Max Burda
+203,21.0,Sat,2024-02-10,13:00,Düsseldorf,1.3,1–1,1.3,Elversberg,31034.0,Merkur Spielarena,Richard Hempel
+204,21.0,Sat,2024-02-10,13:00,Braunschweig,1.9,2–0,1.1,Karlsruher,19595.0,Eintracht-Stadion,Tobias Welz
+205,21.0,Sat,2024-02-10,20:30,Kaiserslautern,1.0,1–2,1.4,Paderborn 07,36344.0,Fritz-Walter-Stadion,Martin Petersen
+206,21.0,Sun,2024-02-11,13:30,Greuther Fürth,1.1,1–2,1.0,Hertha BSC,13459.0,Sportpark Ronhof Thomas Sommer,Marco Fritz
+207,21.0,Sun,2024-02-11,13:30,Osnabrück,3.5,0–0,0.9,Hansa Rostock,15741.0,Stadion an der Bremer Brücke,Robert Hartmann
+208,21.0,Sun,2024-02-11,13:30,Holstein Kiel,2.3,1–0,0.7,Schalke 04,15034.0,Holstein-Stadion,Aarne Aarnink
+210,22.0,Fri,2024-02-16,18:30,Hertha BSC,3.2,3–2,1.6,Magdeburg,52652.0,Olympiastadion Berlin,Florian Exner
+211,22.0,Fri,2024-02-16,18:30,Hannover 96,1.3,2–1,0.6,Greuther Fürth,31500.0,Heinz-von-Heiden-Arena,Patrick Ittrich
+212,22.0,Sat,2024-02-17,13:00,Paderborn 07,1.2,0–4,1.6,Holstein Kiel,12852.0,Home Deluxe Arena,Patrick Alt
+213,22.0,Sat,2024-02-17,13:00,Schalke 04,1.4,1–0,0.8,Wehen,60542.0,Veltins-Arena,Deniz Aytekin
+214,22.0,Sat,2024-02-17,13:00,Hansa Rostock,1.2,2–2,2.1,Hamburger SV,27500.0,Ostseestadion,Felix Zwayer
+215,22.0,Sat,2024-02-17,20:30,Karlsruher,0.7,2–2,0.8,Düsseldorf,26563.0,BBBank Wildpark,Marco Fritz
+216,22.0,Sun,2024-02-18,13:30,St. Pauli,1.0,1–0,2.0,Braunschweig,29546.0,Millerntor-Stadion,Florian Heft
+217,22.0,Sun,2024-02-18,13:30,Nürnberg,0.8,1–1,1.8,Kaiserslautern,35462.0,Max-Morlock-Stadion,Michael Bacher
+218,22.0,Sun,2024-02-18,13:30,Elversberg,1.5,3–1,0.9,Osnabrück,8026.0,Ursapharm-Arena an der Kaiserlinde,Patrick Schwengers
+220,23.0,Fri,2024-02-23,18:30,Holstein Kiel,1.1,3–4,1.2,St. Pauli,15034.0,Holstein-Stadion,Matthias Jöllenbeck
+221,23.0,Fri,2024-02-23,18:30,Wehen,0.6,1–2,1.3,Paderborn 07,6119.0,BRITA-Arena,Florian Lechner
+222,23.0,Sat,2024-02-24,13:00,Braunschweig,0.5,1–1,1.3,Hertha BSC,22636.0,Eintracht-Stadion,Sven Jablonski
+223,23.0,Sat,2024-02-24,13:00,Osnabrück,0.9,1–0,1.7,Hannover 96,15741.0,Stadion an der Bremer Brücke,Tom Bauer
+224,23.0,Sat,2024-02-24,13:00,Kaiserslautern,0.4,0–4,1.9,Karlsruher,47500.0,Fritz-Walter-Stadion,Tobias Welz
+225,23.0,Sat,2024-02-24,20:30,Magdeburg,1.8,3–0,1.1,Schalke 04,27038.0,MDCC-Arena,Christian Dingert
+226,23.0,Sun,2024-02-25,13:30,Hamburger SV,1.3,1–0,0.5,Elversberg,54190.0,Volksparkstadion,Harm Osmers
+227,23.0,Sun,2024-02-25,13:30,Düsseldorf,1.9,2–0,0.8,Hansa Rostock,31188.0,Merkur Spielarena,Max Burda
+228,23.0,Sun,2024-02-25,13:30,Greuther Fürth,1.2,2–1,0.7,Nürnberg,16126.0,Sportpark Ronhof Thomas Sommer,Robert Schröder
+230,24.0,Fri,2024-03-01,18:30,Hertha BSC,1.8,2–2,1.4,Holstein Kiel,46835.0,Olympiastadion Berlin,Bastian Dankert
+231,24.0,Fri,2024-03-01,18:30,Schalke 04,1.9,3–1,0.3,St. Pauli,61497.0,Veltins-Arena,Daniel Siebert
+232,24.0,Sat,2024-03-02,13:00,Hansa Rostock,0.3,0–3,3.1,Kaiserslautern,26500.0,Ostseestadion,Florian Badstübner
+233,24.0,Sat,2024-03-02,13:00,Nürnberg,1.7,2–1,0.5,Braunschweig,27834.0,Max-Morlock-Stadion,Wolfgang Haslberger
+234,24.0,Sat,2024-03-02,13:00,Hannover 96,2.2,2–2,1.0,Düsseldorf,38500.0,Heinz-von-Heiden-Arena,Robert Hartmann
+235,24.0,Sat,2024-03-02,20:30,Karlsruher,2.5,4–0,0.6,Greuther Fürth,26043.0,BBBank Wildpark,Robin Braun
+236,24.0,Sun,2024-03-03,13:30,Paderborn 07,1.0,0–0,0.2,Magdeburg,13566.0,Home Deluxe Arena,Nicolas Winter
+237,24.0,Sun,2024-03-03,13:30,Elversberg,0.6,0–3,2.0,Wehen,8071.0,Ursapharm-Arena an der Kaiserlinde,Alexander Sather
+238,24.0,Sun,2024-03-03,13:30,Hamburger SV,1.4,1–2,1.0,Osnabrück,57000.0,Volksparkstadion,Richard Hempel
+240,25.0,Fri,2024-03-08,18:30,Braunschweig,0.9,0–1,0.9,Hansa Rostock,22233.0,Eintracht-Stadion,Michael Bacher
+241,25.0,Fri,2024-03-08,18:30,Düsseldorf,1.7,2–0,0.5,Hamburger SV,52000.0,Merkur Spielarena,Martin Petersen
+242,25.0,Sat,2024-03-09,13:00,Holstein Kiel,1.6,1–0,1.1,Karlsruher,15034.0,Holstein-Stadion,Florian Exner
+243,25.0,Sat,2024-03-09,13:00,Wehen,0.9,1–1,0.8,Hannover 96,10089.0,BRITA-Arena,Patrick Schwengers
+244,25.0,Sat,2024-03-09,13:00,Schalke 04,1.8,3–3,2.7,Paderborn 07,61475.0,Veltins-Arena,Robert Kampka
+245,25.0,Sat,2024-03-09,20:30,Magdeburg,0.5,0–1,0.7,Nürnberg,26680.0,MDCC-Arena,Tobias Reichel
+246,25.0,Sun,2024-03-10,13:30,Kaiserslautern,0.9,3–2,1.1,Osnabrück,42008.0,Fritz-Walter-Stadion,Sascha Stegemann
+247,25.0,Sun,2024-03-10,13:30,Greuther Fürth,1.0,1–4,3.5,Elversberg,11641.0,Sportpark Ronhof Thomas Sommer,Christian Dingert
+248,25.0,Sun,2024-03-10,13:30,St. Pauli,1.0,2–0,0.4,Hertha BSC,29546.0,Millerntor-Stadion,Harm Osmers
+250,26.0,Fri,2024-03-15,18:30,Osnabrück,0.7,0–4,3.3,Düsseldorf,15741.0,Stadion an der Bremer Brücke,Patrick Alt
+251,26.0,Fri,2024-03-15,18:30,Paderborn 07,1.6,1–2,1.6,Braunschweig,14093.0,Home Deluxe Arena,Daniel Siebert
+252,26.0,Sat,2024-03-16,13:00,Elversberg,0.4,0–2,1.0,Holstein Kiel,8184.0,Ursapharm-Arena an der Kaiserlinde,Tom Bauer
+253,26.0,Sat,2024-03-16,13:00,Hansa Rostock,2.3,1–0,0.6,Greuther Fürth,24500.0,Ostseestadion,Richard Hempel
+254,26.0,Sat,2024-03-16,13:00,Nürnberg,0.1,0–2,1.8,St. Pauli,45629.0,Max-Morlock-Stadion,Frank Willenborg
+255,26.0,Sat,2024-03-16,20:30,Hannover 96,1.0,1–1,1.0,Kaiserslautern,42500.0,Heinz-von-Heiden-Arena,Max Burda
+256,26.0,Sun,2024-03-17,13:30,Karlsruher,3.4,7–0,0.8,Magdeburg,27028.0,BBBank Wildpark,Sören Storks
+257,26.0,Sun,2024-03-17,13:30,Hertha BSC,3.3,5–2,1.3,Schalke 04,69135.0,Olympiastadion Berlin,Sven Jablonski
+258,26.0,Sun,2024-03-17,13:30,Hamburger SV,1.1,3–0,1.1,Wehen,55523.0,Volksparkstadion,Bastian Dankert
+260,27.0,Sat,2024-03-30,13:00,Kaiserslautern,1.2,1–3,2.5,Düsseldorf,46210.0,Fritz-Walter-Stadion,Robert Schröder
+261,27.0,Sat,2024-03-30,13:00,Holstein Kiel,1.4,2–0,0.9,Hansa Rostock,14712.0,Holstein-Stadion,Florian Heft
+262,27.0,Sat,2024-03-30,13:00,Braunschweig,2.8,5–0,1.5,Elversberg,20110.0,Eintracht-Stadion,Bastian Dankert
+263,27.0,Sat,2024-03-30,20:30,Hertha BSC,2.1,3–3,1.8,Nürnberg,51981.0,Olympiastadion Berlin,Alexander Sather
+264,27.0,Sun,2024-03-31,13:30,St. Pauli,1.4,2–1,0.9,Paderborn 07,29391.0,Millerntor-Stadion,Benjamin Brand
+265,27.0,Sun,2024-03-31,13:30,Magdeburg,1.1,0–3,2.7,Hannover 96,26000.0,MDCC-Arena,Florian Lechner
+266,27.0,Sun,2024-03-31,13:30,Greuther Fürth,0.2,1–1,1.8,Hamburger SV,16126.0,Sportpark Ronhof Thomas Sommer,Tobias Welz
+267,27.0,Sun,2024-03-31,13:30,Wehen,2.1,0–1,0.2,Osnabrück,6130.0,BRITA-Arena,Florian Exner
+268,27.0,Sun,2024-03-31,13:30,Schalke 04,1.2,0–0,1.1,Karlsruher,61475.0,Veltins-Arena,Robert Hartmann
+270,28.0,Fri,2024-04-05,18:30,Paderborn 07,2.0,2–3,1.8,Hertha BSC,15000.0,Home Deluxe Arena,Martin Petersen
+271,28.0,Fri,2024-04-05,18:30,Hansa Rostock,1.3,3–1,0.9,Wehen,25500.0,Ostseestadion,Nicolas Winter
+272,28.0,Sat,2024-04-06,13:00,Hamburger SV,2.1,2–1,2.8,Kaiserslautern,57000.0,Volksparkstadion,Deniz Aytekin
+273,28.0,Sat,2024-04-06,13:00,Nürnberg,0.4,0–4,2.5,Holstein Kiel,31961.0,Max-Morlock-Stadion,Richard Hempel
+274,28.0,Sat,2024-04-06,13:00,Elversberg,0.5,0–0,0.6,Magdeburg,8864.0,Ursapharm-Arena an der Kaiserlinde,Patrick Ittrich
+275,28.0,Sat,2024-04-06,20:30,Karlsruher,1.4,2–1,0.9,St. Pauli,33000.0,BBBank Wildpark,Michael Bacher
+276,28.0,Sun,2024-04-07,13:30,Hannover 96,0.7,1–1,0.8,Schalke 04,49000.0,Heinz-von-Heiden-Arena,Frank Willenborg
+277,28.0,Sun,2024-04-07,13:30,Düsseldorf,1.9,2–0,0.8,Braunschweig,52000.0,Merkur Spielarena,Florian Badstübner
+278,28.0,Sun,2024-04-07,13:30,Osnabrück,1.8,2–0,1.0,Greuther Fürth,14658.0,Stadion an der Bremer Brücke,Wolfgang Haslberger
+280,29.0,Fri,2024-04-12,18:30,Greuther Fürth,1.2,2–1,1.7,Kaiserslautern,15680.0,Sportpark Ronhof Thomas Sommer,Patrick Alt
+281,29.0,Fri,2024-04-12,18:30,Hertha BSC,3.9,4–0,1.1,Hansa Rostock,62177.0,Olympiastadion Berlin,Robin Braun
+282,29.0,Sat,2024-04-13,13:00,Wehen,0.4,0–2,1.4,Düsseldorf,11200.0,BRITA-Arena,Timo Gerach
+283,29.0,Sat,2024-04-13,13:00,Paderborn 07,1.4,1–1,1.7,Karlsruher,12387.0,Home Deluxe Arena,Alexander Sather
+284,29.0,Sat,2024-04-13,13:00,Holstein Kiel,1.7,4–0,0.4,Osnabrück,15034.0,Holstein-Stadion,Max Burda
+285,29.0,Sat,2024-04-13,20:30,Schalke 04,2.0,2–0,1.1,Nürnberg,62278.0,Veltins-Arena,Marco Fritz
+286,29.0,Sun,2024-04-14,13:30,Braunschweig,0.4,0–0,1.2,Hannover 96,21660.0,Eintracht-Stadion,Sven Jablonski
+287,29.0,Sun,2024-04-14,13:30,Magdeburg,2.7,2–2,2.4,Hamburger SV,27090.0,MDCC-Arena,Robert Kampka
+288,29.0,Sun,2024-04-14,13:30,St. Pauli,2.2,3–4,2.7,Elversberg,29546.0,Millerntor-Stadion,Tobias Reichel
+290,30.0,Fri,2024-04-19,18:30,Nürnberg,2.0,0–2,1.5,Paderborn 07,27939.0,Max-Morlock-Stadion,Florian Exner
+291,30.0,Fri,2024-04-19,18:30,Elversberg,2.0,1–1,1.2,Schalke 04,10000.0,Ursapharm-Arena an der Kaiserlinde,Patrick Schwengers
+292,30.0,Sat,2024-04-20,13:00,Osnabrück,1.9,0–3,2.0,Braunschweig,15741.0,Stadion an der Bremer Brücke,Tom Bauer
+293,30.0,Sat,2024-04-20,13:00,Düsseldorf,0.8,1–0,0.9,Greuther Fürth,35789.0,Merkur Spielarena,Florian Heft
+294,30.0,Sat,2024-04-20,13:00,Kaiserslautern,0.7,1–1,0.6,Wehen,42168.0,Fritz-Walter-Stadion,Aarne Aarnink
+295,30.0,Sat,2024-04-20,20:30,Hamburger SV,1.5,0–1,0.9,Holstein Kiel,57000.0,Volksparkstadion,Sascha Stegemann
+296,30.0,Sun,2024-04-21,13:30,Karlsruher,0.6,3–2,2.5,Hertha BSC,33000.0,BBBank Wildpark,Bastian Dankert
+297,30.0,Sun,2024-04-21,13:30,Hannover 96,1.3,1–2,0.7,St. Pauli,49000.0,Heinz-von-Heiden-Arena,Deniz Aytekin
+298,30.0,Sun,2024-04-21,13:30,Hansa Rostock,0.4,0–2,1.6,Magdeburg,27500.0,Ostseestadion,Daniel Schlager
+300,31.0,Fri,2024-04-26,18:30,Hertha BSC,0.4,1–1,1.0,Hannover 96,59192.0,Olympiastadion Berlin,Timo Gerach
+301,31.0,Fri,2024-04-26,18:30,St. Pauli,0.6,1–0,0.6,Hansa Rostock,29163.0,Millerntor-Stadion,Robert Hartmann
+302,31.0,Sat,2024-04-27,13:00,Braunschweig,0.4,0–4,3.3,Hamburger SV,22167.0,Eintracht-Stadion,Daniel Siebert
+303,31.0,Sat,2024-04-27,13:00,Paderborn 07,2.2,3–1,1.7,Elversberg,12004.0,Home Deluxe Arena,Wolfgang Haslberger
+304,31.0,Sat,2024-04-27,13:00,Holstein Kiel,1.3,1–3,1.3,Kaiserslautern,15034.0,Holstein-Stadion,Florian Badstübner
+305,31.0,Sat,2024-04-27,20:30,Schalke 04,0.7,1–1,1.3,Düsseldorf,62000.0,Veltins-Arena,Harm Osmers
+306,31.0,Sun,2024-04-28,13:30,Wehen,2.3,3–5,3.6,Greuther Fürth,8012.0,BRITA-Arena,Patrick Ittrich
+307,31.0,Sun,2024-04-28,13:30,Magdeburg,1.8,1–1,1.4,Osnabrück,25882.0,MDCC-Arena,Robin Braun
+308,31.0,Sun,2024-04-28,13:30,Nürnberg,1.1,0–1,1.6,Karlsruher,27000.0,Max-Morlock-Stadion,Lukas Benen
+310,32.0,Fri,2024-05-03,18:30,Düsseldorf,2.6,3–1,0.4,Nürnberg,40336.0,Merkur Spielarena,Martin Petersen
+311,32.0,Fri,2024-05-03,18:30,Hamburger SV,1.7,1–0,1.4,St. Pauli,57000.0,Volksparkstadion,Matthias Jöllenbeck
+312,32.0,Sat,2024-05-04,13:00,Hansa Rostock,1.6,1–2,2.2,Karlsruher,26500.0,Ostseestadion,Florian Badstübner
+313,32.0,Sat,2024-05-04,13:00,Greuther Fürth,1.8,3–3,1.5,Braunschweig,13241.0,Sportpark Ronhof Thomas Sommer,Richard Hempel
+314,32.0,Sat,2024-05-04,20:30,Kaiserslautern,2.2,4–1,0.9,Magdeburg,46556.0,Fritz-Walter-Stadion,Patrick Ittrich
+315,32.0,Sun,2024-05-05,13:30,Wehen,0.6,0–1,0.8,Holstein Kiel,10112.0,BRITA-Arena,Felix Zwayer
+316,32.0,Sun,2024-05-05,13:30,Elversberg,2.7,4–2,2.5,Hertha BSC,9502.0,Ursapharm-Arena an der Kaiserlinde,Florian Lechner
+317,32.0,Sun,2024-05-05,13:30,Hannover 96,3.4,3–2,2.2,Paderborn 07,35500.0,Heinz-von-Heiden-Arena,Robert Kampka
+318,32.0,Tue,2024-05-07,18:30,Osnabrück,0.8,0–4,2.8,Schalke 04,,Millerntor-Stadion,Michael Bacher
+320,33.0,Fri,2024-05-10,18:30,Magdeburg,0.5,0–0,1.9,Greuther Fürth,26200.0,MDCC-Arena,Tom Bauer
+321,33.0,Fri,2024-05-10,18:30,Paderborn 07,1.1,1–0,0.5,Hamburger SV,15000.0,Home Deluxe Arena,Frank Willenborg
+322,33.0,Sat,2024-05-11,13:00,Schalke 04,0.6,2–1,0.8,Hansa Rostock,61533.0,Veltins-Arena,Tobias Reichel
+323,33.0,Sat,2024-05-11,13:00,Nürnberg,2.0,3–0,0.2,Elversberg,34031.0,Max-Morlock-Stadion,Max Burda
+324,33.0,Sat,2024-05-11,13:00,Hertha BSC,2.2,3–1,0.5,Kaiserslautern,67144.0,Olympiastadion Berlin,Daniel Schlager
+325,33.0,Sat,2024-05-11,20:30,Holstein Kiel,1.4,1–1,2.1,Düsseldorf,15034.0,Holstein-Stadion,Sven Jablonski
+326,33.0,Sun,2024-05-12,13:30,Karlsruher,2.0,1–2,1.6,Hannover 96,32140.0,BBBank Wildpark,Nicolas Winter
+327,33.0,Sun,2024-05-12,13:30,Braunschweig,1.1,1–0,1.1,Wehen,21026.0,Eintracht-Stadion,Marco Fritz
+328,33.0,Sun,2024-05-12,13:30,St. Pauli,2.7,3–1,1.0,Osnabrück,29546.0,Millerntor-Stadion,Martin Petersen
+330,34.0,Sun,2024-05-19,15:30,Wehen,0.8,1–2,1.2,St. Pauli,12100.0,BRITA-Arena,Deniz Aytekin
+331,34.0,Sun,2024-05-19,15:30,Hansa Rostock,1.6,1–2,2.1,Paderborn 07,26000.0,Ostseestadion,Harm Osmers
+332,34.0,Sun,2024-05-19,15:30,Düsseldorf,2.2,3–2,1.4,Magdeburg,50028.0,Merkur Spielarena,Timo Gerach
+333,34.0,Sun,2024-05-19,15:30,Elversberg,0.7,0–3,2.4,Karlsruher,9502.0,Ursapharm-Arena an der Kaiserlinde,Florian Exner
+334,34.0,Sun,2024-05-19,15:30,Hannover 96,1.5,1–2,0.7,Holstein Kiel,49500.0,Heinz-von-Heiden-Arena,Alexander Sather
+335,34.0,Sun,2024-05-19,15:30,Osnabrück,0.8,2–1,1.9,Hertha BSC,15741.0,Stadion an der Bremer Brücke,Patrick Alt
+336,34.0,Sun,2024-05-19,15:30,Kaiserslautern,2.2,5–0,1.3,Braunschweig,47901.0,Fritz-Walter-Stadion,Florian Heft
+337,34.0,Sun,2024-05-19,15:30,Hamburger SV,3.7,4–1,1.4,Nürnberg,57000.0,Volksparkstadion,Aarne Aarnink
+338,34.0,Sun,2024-05-19,15:30,Greuther Fürth,2.1,2–0,0.9,Schalke 04,16126.0,Sportpark Ronhof Thomas Sommer,Patrick Schwengers
